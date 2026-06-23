@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東京富士五日遊 ｜ 2026</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Nunito:wght@600;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Nunito', 'Noto Sans TC', sans-serif;
+            background-color: #F7F9FA;
+            /* 韓式可愛點點背景 */
+            background-image: radial-gradient(#3B7AAE 10%, transparent 11%), radial-gradient(#3B7AAE 10%, transparent 11%);
+            background-size: 24px 24px;
+            background-position: 0 0, 12px 12px;
+            background-opacity: 0.03; /* 細微點點不搶視覺 */
+        }
+        .fuji-blue-bg { background-color: #3B7AAE; }
+        .fuji-blue-text { color: #3B7AAE; }
+        .fuji-blue-border { border-color: #3B7AAE; }
+        .card-shadow { box-shadow: 0 8px 24px rgba(59, 122, 174, 0.08); }
+        .active-nav { color: #3B7AAE; transform: translateY(-4px); }
+        html { scroll-behavior: smooth; }
+        /* 隱藏滾動條但保持功能 */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="pb-28 text-slate-700 antialiased">
+
+    <header class="fuji-blue-bg text-white rounded-b-[2rem] px-6 pt-8 pb-12 text-center relative shadow-lg">
+        <div class="absolute top-4 right-4 bg-white/20 backdrop-blur-md text-xs px-3 py-1 rounded-full text-white font-bold">
+            <i class="fa-regular fa-calendar-days mr-1"></i> 2026.10.15 - 10.19
+        </div>
+        <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-3 shadow-inner">
+            <i class="fa-solid fa-mountain fuji-blue-text text-3xl"></i>
+        </div>
+        <h1 class="text-2xl font-extrabold tracking-wide mb-1">東京．富士山秋景五日遊</h1>
+        <p class="text-white/80 text-sm">韓式小清新專屬行程隨身本 ✨</p>
+    </header>
+
+    <main class="max-w-md mx-auto px-4 -mt-6 space-y-8 relative z-10">
+
+        <section id="day1" class="bg-white rounded-3xl p-5 card-shadow border border-slate-100">
+            <div class="flex justify-between items-center border-b border-slate-100 pb-3 mb-4">
+                <div class="flex items-center space-x-2">
+                    <span class="fuji-blue-bg text-white font-black px-3 py-1 rounded-2xl text-sm">DAY 1</span>
+                    <span class="text-xs text-slate-400 font-medium">10/15 (四)</span>
+                </div>
+                <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full"><i class="fa-solid fa-plane-departure mr-1"></i>出發啟航</span>
+            </div>
+
+            <div class="space-y-5 relative before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-[2px] before:bg-slate-100">
+                
+                <div class="flex space-x-3 relative">
+                    <div class="w-6 h-6 rounded-full bg-blue-50 border-2 fuji-blue-border flex items-center justify-center z-10 bg-white">
+                        <i class="fa-solid fa-plane text-[10px] fuji-blue-text"></i>
+                    </div>
+                    <div class="flex-1 bg-slate-50/60 rounded-2xl p-3.5">
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-sm text-slate-800">星宇航空 JX314</h4>
+                            <span class="text-[10px] bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded">交通</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-2">09:30 台中清泉崗 (RMQ) ➔ 14:00 成田機場 (NRT)</p>
+                        <div class="flex flex-wrap gap-1 mb-2">
+                            <span class="text-[10px] bg-slate-200/70 text-slate-600 font-medium px-2 py-0.5 rounded-full">#星宇航空</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex space-x-3 relative">
+                    <div class="w-6 h-6 rounded-full bg-blue-50 border-2 fuji-blue-border flex items-center justify-center z-10 bg-white">
+                        <i class="fa-solid fa-train text-[10px] fuji-blue-text"></i>
+                    </div>
+                    <div class="flex-1 bg-slate-50/60 rounded-2xl p-3.5">
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-sm text-slate-800">成田機場 ➔ 新宿 ➔ 富士山駅</h4>
+                            <span class="text-[10px] bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded">交通</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-2">搭乘特急電車或巴士一路向富士山前進</p>
+                        <div class="bg-amber-50 border border-amber-100 rounded-xl p-2.5 text-[11px] text-amber-800 space-y-1">
+                            <p><strong>💡 拍照小技巧:</strong> 抵達新宿轉乘富士回遊號時，可以拍下列車與月台站牌的限定合影！</p>
+                            <p><strong>🚗 交通提示:</strong> 大眾運輸行程。若回程需租車，沿途富士山駅周邊設有Times及Toyota租車點，油資可用信用卡支付。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex space-x-3 relative">
+                    <div class="w-6 h-6 rounded-full bg-blue-50 border-2 fuji-blue-border flex items-center justify-center z-10 bg-white">
+                        <i class="fa-solid fa-hotel text-[10px] fuji-blue-text"></i>
+                    </div>
+                    <div class="flex-1 bg-slate-50/60 rounded-2xl p-3.5">
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-sm text-slate-800">Megu Fuji 2021</h4>
+                            <span class="text-[10px] bg-purple-100 text-purple-700 font-bold px-1.5 py-0.5 rounded">酒店</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-2">富士山車站旁的文青設計旅店</p>
+                        <div class="flex flex-wrap gap-1 mb-2">
+                            <span class="text-[10px] bg-pink-100 text-pink-600 font-bold px-2 py-0.5 rounded-full">#必拍</span>
+                        </div>
+                        <div class="bg-amber-50 border border-amber-100 rounded-xl p-2.5 text-[11px] text-amber-800 space-y-1">
+                            <p><strong>💡 拍照小技巧:</strong> 飯店頂樓觀景台是極佳的富士山觀賞點，清晨上樓可拍到完美的無遮蔽富士山空景！</p>
+                            <p><strong>🚗 停車資訊:</strong> 飯店附設專屬免費停車場，車位有限，建議入住時先向櫃檯登記。</p>
+                        </div>
+                        <a href="https://the-road-to-mt-fuji.com/" target="_blank" class="inline-block mt-2 text-[11px] fuji-blue-text font-bold hover:underline"><i class="fa-solid fa-earth-asia mr-1"></i>官方網站</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4 pt-3 border-t border-dashed border-slate-200 bg-blue-50/40 rounded-2xl p-3 text-xs text-slate-600 space-y-1">
+                <p><strong>☀️ 天氣提示:</strong> 10月中旬富士山區入夜氣溫驟降，大約 10°C - 15°C，體感偏涼。</p>
+                <p><strong>👗 建議穿著:</strong> 機艙內穿著舒適著物。抵達山區後請務必換上防風防寒外套，採洋蔥式穿法。</p>
+            </div>
+        </section>
+
+        <section id="day2" class="bg-white rounded-3xl p-5 card-shadow border border-slate-100">
+            <div class="flex justify-between items-center border-b border-slate-100 pb-3 mb-4">
+                <div class="flex items-center space-x-2">
+                    <span class="fuji-blue-bg text-white font-black px-3 py-1 rounded-2xl text-sm">DAY 2</span>
+                    <span class="text-xs text-slate-400 font-medium">10/16 (五)</span>
+                </div>
+                <span class="text-xs font-bold text-fuji-blue-text bg-blue-50 px-2.5 py-1 rounded-full"><i class="fa-solid fa-hot-tub-person mr-1"></i>溫泉饗宴</span>
+            </div>
+
+            <div class="space-y-5 relative before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-[2px] before:bg-slate-100">
+                
+                <div class="flex space-x-3 relative">
+                    <div class="w-6 h-6 rounded-full bg-blue-50 border-2 fuji-blue-border flex items-center justify-center z-10 bg-white">
+                        <i class="fa-solid fa-mountain-sun text-[10px] fuji-blue-text"></i>
+                    </div>
+                    <div class="flex-1 bg-slate-50/60 rounded-2xl p-3.5">
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-sm text-slate-800">富士山駅 ➔ 搭纜車 ➔ 河口湖駅</h4>
+                            <span class="text-[10px] bg-teal-100 text-teal-700 font-bold px-1.5 py-0.5 rounded">景點</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-2">搭乘天上山全景纜車，俯瞰河口湖與富士山絕景</p>
+                        <div class="flex flex-wrap gap-1 mb-2">
+                            <span class="text-[10px] bg-pink-100 text-pink-600 font-bold px-2 py-0.5 rounded-full">#必拍</span>
+                        </div>
+                        <div class="bg-amber-50 border border-amber-100 rounded-xl p-2.5 text-[11px] text-amber-800 space-y-1">
+                            <p><strong>💡 拍照小技巧:</strong> 纜車上升途中靠窗側能捕捉到整座湖泊，到山頂「天上鐘」與貍貓茶屋旁可拍到與富士山並肩的大氣網美照。</p>
+                            <p><strong>🚗 停車資訊:</strong> 纜車周邊有河口湖畔免費公共停車場（平日較易有位），或選擇河口湖車站旁的收費停車場。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex space-x-3 relative">
+                    <div class="w-6 h-6 rounded-full bg-blue-50 border-2 fuji-blue-border flex items-center justify-center z-10 bg-white">
+                        <i class="fa-solid fa-utensils text-[10px] fuji-blue-text"></i>
+                    </div>
+                    <div class="flex-1 bg-slate-50/60 rounded-2xl p-3.5">
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-sm text-slate-800">午餐：河口湖吃名物不動麵</h4>
+                            <span class="text-[10px] bg-orange-100 text-orange-700 font-bold px-1.5 py-0.5 rounded">食物</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-2">享用在地著名的 Houtou 蔬菜味噌扁平麵</p>
+                        <div class="flex flex-wrap gap-1 mb-2">
+                            <span class="text-[10px] bg-yellow-100 text-yellow-700 font-bold px-2 py-0.5 rounded-full">#必吃</span>
+                        </div>
+                        <div class="bg-amber-50 border border-amber-100 rounded-xl p-2.5 text-[11px] text-amber-800 space-y-1">
+                            <p><strong>💡 拍照小技巧:</strong> 特色鐵鍋與冒著熱氣的粗麵條，搭配古樸的木造店面拍起來非常具有日本鄉土風情！</p>
+                            <p><strong>🚗 停車資訊:</strong> 餺飥不動（河口湖駅前店或東戀路店）皆備有大型專屬免費停車場。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex space-x-3 relative">
+                    <div class="w-6 h-6 rounded-full bg-blue-50 border-2 fuji-blue-border flex items-center justify-center z-10 bg-white">
+                        <i class="fa-solid fa-hotel text-[10px] fuji-blue-text"></i>
+                    </div>
+                    <div class="flex-1 bg-slate-50/60 rounded-2xl p-3.5">
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-sm text-slate-800">Fujisan Onsen Hotel Kaneyamaen 鐘山苑</h4>
+                            <span class="text-[10px] bg-purple-100 text-purple-700 font-bold px-1.5 py-0.5 rounded">酒店</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-2">15:00 於河口湖駅搭乘接駁車進飯店辦理入住</p>
+                        <div class="bg-slate-100 text-slate-700 text-[11px] p-2 rounded-xl mb-2">
+                            <strong>🌙 豪華晚餐：</strong>甲州牛沙朗牛排 ＆ 蝦夷鮑魚活烤
+                        </div>
+                        <div class="flex flex-wrap gap-1 mb-2">
+                            <span class="text-[10px] bg-yellow-100 text-yellow-700 font-bold px-2 py-0.5 rounded-full">#必吃</span>
+                            <span class="text-[10px] bg-pink-100 text-pink-600 font-bold px-2 py-0.5 rounded-full">#必拍</span>
+                        </div>
+                        <div class="bg-amber-50 border border-amber-100 rounded-xl p-2.5 text-[11px] text-amber-800 space-y-1">
+                            <p><strong>💡 拍照小技巧:</strong> 鐘山苑擁有極美的日式庭園，換上飯店浴衣在庭園小橋、或是頂樓「露天風呂」遠眺富士山，能拍出絕美大片！</p>
+                            <p><strong>🚗 停車資訊:</strong> 溫泉飯店提供超大容量免費住客專屬停車場，並有行李卸載區與服務人員指引。</p>
+                        </div>
+                        <a href="https://www.kaneyamaen.com/" target="_blank" class="inline-block mt-2 text-[11px] fuji-blue-text font-bold hover:underline"><i class="fa-solid fa-earth-asia mr-1"></i>官方網站</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4 pt-3 border-t border-dashed border-slate-200 bg-blue-50/40 rounded-2xl p-3 text-xs text-slate-600 space-y-1">
+                <p><strong>☀️ 天氣提示:</strong> 白天山區體感約 16°C 舒適，傍晚後山間水氣重會變得濕冷。</p>
+                <p><strong>👗 建議穿著:</strong> 戶外行程建議洋蔥式穿法（長袖+毛衣+防風外衣）。進飯店後可換上厚質日式浴衣配合保暖披肩在庭園散步。</p>
+            </div>
+        </section>
+
+        <section id="day3" class="bg-white rounded-3xl p-5 card-shadow border border-slate-100">
+            <div class="flex justify-between items-center border-b border-slate-100 pb-3 mb-4">
+                <div class="flex items-center space-x-2">
+                    <span class="fuji-blue-bg text-white font-black px-3 py-1 rounded-2xl text-sm">DAY 3</span>
+                    <span class="text-xs text-slate-400 font-medium">10/17 (六)</span>
+                </div>
+                <span class="text-xs font-bold text-pink-600 bg-pink-50 px-2.5 py-1 rounded-full"><i class="fa-solid fa-bag-shopping mr-1"></i>購物血拼</span>
+            </div>
+
+            <div class="space-y-5 relative before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-[2px] before:bg-slate-100">
+                
+                <div class="flex space-x-3 relative">
+                    <div class="w-6 h-6 rounded-full bg-blue-50 border-2 fuji-blue-border flex items-center justify-center z-10 bg-white">
+                        <i class="fa-solid fa-bag-shopping text-[10px] fuji-blue-text"></i>
+                    </div>
+                    <div class="flex-1 bg-slate-50/60 rounded-2xl p-3.5">
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-sm text-slate-800">鐘山苑 ➔ 御殿場 OUTLET</h4>
+                            <span class="text-[10px] bg-red-100 text-red-700 font-bold px-1.5 py-0.5 rounded">購物</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-2">日本最受歡迎、可眺望富士山的超大型購物中心</p>
+                        <div class="bg-slate-100 text-slate-700 text-[11px] p-2 rounded-xl mb-2">
+                            <strong>🍔 午餐推薦：</strong>Shake Shack 漢堡
+                        </div>
+                        <div class="flex flex-wrap gap-1 mb-2">
+                            <span class="text-[10px] bg-red-100 text-red-600 font-bold px-2 py-0.5 rounded-full">#必買</span>
+                            <span class="text-[10px] bg-yellow-100 text-yellow-700 font-bold px-2 py-0.5 rounded-full">#必吃</span>
+                        </div>
+                        <div class="bg-amber-50 border border-amber-100 rounded-xl p-2.5 text-[11px] text-amber-800 space-y-1">
+                            <p><strong>💡 拍照小技巧:</strong> 連接主要園區的夢之大橋（夢の大橋）是拍攝雄偉富士山的特等席，邊拎著戰利品邊拍照超有生活感！</p>
+                            <p><strong>🚗 停車＆加油:</strong> Outlet 設有巨大的多個免費立體停車場。若開車前往，周邊的 ENEOS 御殿場交流道加油站非常方便，可在此加滿油再回東京。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex space-x-3 relative">
+                    <div class="w-6 h-6 rounded-full bg-blue-50 border-2 fuji-blue-border flex items-center justify-center z-10 bg-white">
+                        <i class="fa-solid fa-hotel text-[10px] fuji-blue-text"></i>
+                    </div>
+                    <div class="flex-1 bg-slate-50/60 rounded-2xl p-3.5">
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-sm text-slate-800">東京全日空洲際酒店 (ANA InterContinental)</h4>
+                            <span class="text-[10px] bg-purple-100 text-purple-700 font-bold px-1.5 py-0.5 rounded">酒店</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-2">回到東京市區，入住位於六本木/赤坂商圈的高級五星酒店</p>
+                        <div class="bg-amber-50 border border-amber-100 rounded-xl p-2.5 text-[11px] text-amber-800 space-y-1">
+                            <p><strong>💡 拍照小技巧:</strong> 挑高的飯店大廳極具現代奢華感，高樓層客房有機會遠眺東京鐵塔璀璨夜景，是夜晚必拍的經典視角！</p>
+                            <p><strong>🚗 停車資訊:</strong> 飯店地下備有住客專屬收費停車場（通常約 4,000 日圓/晚），建議多利用飯店代客泊車服務。</p>
+                        </div>
+                        <a href="https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyohc/hoteldetail" target="_blank" class="inline-block mt-2 text-[11px] fuji-blue-text font-bold hover:underline"><i class="fa-solid fa-earth-asia mr-1"></i>官方網站</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4 pt-3 border-t border-dashed border-slate-200 bg-blue-50/40 rounded-2xl p-3 text-xs text-slate-600 space-y-1">
+                <p><strong>☀️ 天氣提示:</strong> 御殿場位於丘陵區風大偏涼，回到東京市區後則相對溫暖（約 18°C - 22°C）。</p>
+                <p><strong>👗 建議穿著:</strong> Outlet 戶外移動多、風大，建議穿著防風且好穿脫的外套，並搭配最舒適的走路鞋或運動鞋方便血拼。</p>
+            </div>
+        </section>
+
+        <section id="day4" class="bg-white rounded-3xl p-5 card-shadow border border-slate-100">
+            <div class="flex justify-between items-center border-b border-slate-100 pb-3 mb-4">
+                <div class="flex items-center space-x-2">
+                    <span class="fuji-blue-bg text-white font-black px-3 py-1 rounded-2xl text-sm">DAY 4</span>
+                    <span class="text-xs text-slate-400 font-medium">10/18 (日)</span>
+                </div>
+                <span class="text-xs font-bold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-full"><i class="fa-solid fa-city mr-1"></i>東京潮流</span>
+            </div>
+
+            <div class="space-y-5 relative before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-[2px] before:bg-slate-100">
+                
+                <div class="flex space-x-3 relative">
+                    <div class="w-6 h-6 rounded-full bg-blue-50 border-2 fuji-blue-border flex items-center justify-center z-10 bg-white">
+                        <i class="fa-solid fa-store text-[10px] fuji-blue-text"></i>
+                    </div>
+                    <div class="flex-1 bg-slate-50/60 rounded-2xl p-3.5">
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-sm text-slate-800">表參道 ➔ 逛街一整天</h4>
+                            <span class="text-[10px] bg-red-100 text-red-700 font-bold px-1.5 py-0.5 rounded">購物</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-2">漫步東京時尚殿堂，探索各大品牌旗艦店與特色小店</p>
+                        <div class="flex flex-wrap gap-1 mb-2">
+                            <span class="text-[10px] bg-red-100 text-red-600 font-bold px-2 py-0.5 rounded-full">#必買</span>
+                            <span class="text-[10px] bg-pink-100 text-pink-600 font-bold px-2 py-0.5 rounded-full">#必拍</span>
+                        </div>
+                        <div class="bg-amber-50 border border-amber-100 rounded-xl p-2.5 text-[11px] text-amber-800 space-y-1">
+                            <p><strong>💡 拍照小技巧:</strong> 表參道之丘（Omotesando Hills）具有設計感的斜坡室內中庭，以及原宿神宮前十字路口的東急廣場多面萬花筒鏡面入口，都是秒殺快門的經典時尚地標。</p>
+                            <p><strong>🚗 交通提示:</strong> 市區強烈建議搭乘地鐵（銀座線/千代田線）。若真的開車，表參道之丘有地下停車場，但市區極易塞車。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex space-x-3 relative">
+                    <div class="w-6 h-6 rounded-full bg-blue-50 border-2 fuji-blue-border flex items-center justify-center z-10 bg-white">
+                        <i class="fa-solid fa-mug-hot text-[10px] fuji-blue-text"></i>
+                    </div>
+                    <div class="flex-1 bg-slate-50/60 rounded-2xl p-3.5">
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-sm text-slate-800">Blue Bottle Coffee 表參道店</h4>
+                            <span class="text-[10px] bg-orange-100 text-orange-700 font-bold px-1.5 py-0.5 rounded">食物</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-2">在綠意盎然的青山露台享受一杯現沖精品手沖咖啡</p>
+                        <div class="flex flex-wrap gap-1 mb-2">
+                            <span class="text-[10px] bg-yellow-100 text-yellow-700 font-bold px-2 py-0.5 rounded-full">#必吃</span>
+                        </div>
+                        <div class="bg-amber-50 border border-amber-100 rounded-xl p-2.5 text-[11px] text-amber-800 space-y-1">
+                            <p><strong>💡 拍照小技巧:</strong> 點一杯帶有經典藍瓶標誌的拿鐵，坐在戶外露台木質座椅上，以背後的綠植為背景拍一張文青風特寫！</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex space-x-3 relative">
+                    <div class="w-6 h-6 rounded-full bg-blue-50 border-2 fuji-blue-border flex items-center justify-center z-10 bg-white">
+                        <i class="fa-solid fa-hotel text-[10px] fuji-blue-text"></i>
+                    </div>
+                    <div class="flex-1 bg-slate-50/60 rounded-2xl p-3.5">
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-sm text-slate-800">東京全日空洲際酒店</h4>
+                            <span class="text-[10px] bg-purple-100 text-purple-700 font-bold px-1.5 py-0.5 rounded">酒店</span>
+                        </div>
+                        <p class="text-xs text-slate-500">續住第二晚，逛完街直接回飯店放戰利品超輕鬆！</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4 pt-3 border-t border-dashed border-slate-200 bg-blue-50/40 rounded-2xl p-3 text-xs text-slate-600 space-y-1">
+                <p><strong>☀️ 天氣提示:</strong> 東京市區秋季涼爽宜人，白天氣溫約 18°C - 23°C，晴天居多。</p>
+                <p><strong>👗 建議穿著:</strong> 今日為純步行逛街行程，適合穿著最時髦的秋裝（如風衣、寬褲、針織衫），搭配方便反覆穿脫試衣的服飾與舒適好走的鞋子。</p>
+            </div>
+        </section>
+
+        <section id="day5" class="bg-white rounded-3xl p-5 card-shadow border border-slate-100">
+            <div class="flex justify-between items-center border-b border-slate-100 pb-3 mb-4">
+                <div class="flex items-center space-x-2">
+                    <span class="fuji-blue-bg text-white font-black px-3 py-1 rounded-2xl text-sm">DAY 5</span>
+                    <span class="text-xs text-slate-400 font-medium">10/19 (一)</span>
+                </div>
+                <span class="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-full"><i class="fa-solid fa-house-chimney mr-1"></i>平安歸賦</span>
+            </div>
+
+            <div class="space-y-5 relative before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-[2px] before:bg-slate-100">
+                
+                <div class="flex space-x-3 relative">
+                    <div class="w-6 h-6 rounded-full bg-blue-50 border-2 fuji-blue-border flex items-center justify-center z-10 bg-white">
+                        <i class="fa-solid fa-train text-[10px] fuji-blue-text"></i>
+                    </div>
+                    <div class="flex-1 bg-slate-50/60 rounded-2xl p-3.5">
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-sm text-slate-800">東京全日空洲際 ➔ 成田機場</h4>
+                            <span class="text-[10px] bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded">交通</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-2">退房後，搭乘利木津巴士或 Skyliner 輕鬆前往成田機場</p>
+                        <div class="bg-amber-50 border border-amber-100 rounded-xl p-2.5 text-[11px] text-amber-800 space-y-1">
+                            <p><strong>💡 交通提示:</strong> 推薦直接在全日空洲際酒店門口搭乘「利木津巴士」直達成田機場，免去拖著大行李在地鐵站內奔波的痛苦！</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex space-x-3 relative">
+                    <div class="w-6 h-6 rounded-full bg-blue-50 border-2 fuji-blue-border flex items-center justify-center z-10 bg-white">
+                        <i class="fa-solid fa-plane-arrival text-[10px] fuji-blue-text"></i>
+                    </div>
+                    <div class="flex-1 bg-slate-50/60 rounded-2xl p-3.5">
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-sm text-slate-800">星宇航空 JX803</h4>
+                            <span class="text-[10px] bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded">交通</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-2">16:20 成田機場 (NRT) ➔ 19:00 桃園機場 (TPE)</p>
+                        <div class="flex flex-wrap gap-1 mb-2">
+                            <span class="text-[10px] bg-red-100 text-red-600 font-bold px-2 py-0.5 rounded-full">#必買</span>
+                        </div>
+                        <div class="bg-amber-50 border border-amber-100 rounded-xl p-2.5 text-[11px] text-amber-800 space-y-1">
+                            <p><strong>💡 拍照小技巧:</strong> 提早出關，在成田機場免稅店大買最後一波伴手禮（Tokyo Banana、 or 薯條三兄弟），並拍下精美的免稅店限定開箱照！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4 pt-3 border-t border-dashed border-slate-200 bg-blue-50/40 rounded-2xl p-3 text-xs text-slate-600 space-y-1">
+                <p><strong>☀️ 天氣提示:</strong> 東京與台灣兩地皆是秋意濃，機場內冷氣較強。</p>
+                <p><strong>👗 建議穿著:</strong> 舒適放鬆的搭機服裝，可穿休閒長褲搭配衛衣，準備一件薄外套上機使用。</p>
+            </div>
+        </section>
+
+    </main>
+
+    <nav class="fixed bottom-6 left-1/2 -translate-x-1/2 w-[90%] max-w-md bg-white/90 backdrop-blur-md rounded-full px-6 py-3 shadow-xl border border-slate-100 flex justify-between items-center z-50">
+        <a href="#day1" class="flex flex-col items-center space-y-1 text-slate-400 hover:text-[#3B7AAE] transition-all active:scale-95">
+            <span class="text-xs font-black">D1</span>
+            <span class="text-[10px] font-medium">10/15</span>
+        </a>
+        <a href="#day2" class="flex flex-col items-center space-y-1 text-slate-400 hover:text-[#3B7AAE] transition-all active:scale-95">
+            <span class="text-xs font-black">D2</span>
+            <span class="text-[10px] font-medium">10/16</span>
+        </a>
+        <a href="#day3" class="flex flex-col items-center space-y-1 text-slate-400 hover:text-[#3B7AAE] transition-all active:scale-95">
+            <span class="text-xs font-black">D3</span>
+            <span class="text-[10px] font-medium">10/17</span>
+        </a>
+        <a href="#day4" class="flex flex-col items-center space-y-1 text-slate-400 hover:text-[#3B7AAE] transition-all active:scale-95">
+            <span class="text-xs font-black">D4</span>
+            <span class="text-[10px] font-medium">10/18</span>
+        </a>
+        <a href="#day5" class="flex flex-col items-center space-y-1 text-slate-400 hover:text-[#3B7AAE] transition-all active:scale-95">
+            <span class="text-xs font-black">D5</span>
+            <span class="text-[10px] font-medium">10/19</span>
+        </a>
+    </nav>
+
+    <script>
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll("nav a");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 120) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach((a) => {
+                a.classList.remove("fuji-blue-text", "scale-110", "font-bold");
+                a.classList.add("text-slate-400");
+                if (a.getAttribute("href") === `#${current}`) {
+                    a.classList.remove("text-slate-400");
+                    a.classList.add("fuji-blue-text", "scale-110", "font-bold");
+                }
+            });
+        });
+    </script>
+</body>
+</html>
